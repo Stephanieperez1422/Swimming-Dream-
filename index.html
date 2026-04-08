@@ -1,45 +1,57 @@
 <!DOCTYPE html> <!-- This tells the browser that we are working with HTML -->
-<html> <!-- Root element, everything goes inside this tag -->
+<html lang="en"> <!-- Root element, everything goes inside this tag -->
 
 <head> <!-- Contains information about the page, not visible to users -->
-<title>Private Swim Lessons</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Private Swim Lessons</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<!-- Navigation Menu -->
-<nav class="navbar"> <!-- defines the navigation area -->
+  <!-- Navigation Menu -->
+  <nav class="navbar"> <!-- defines the navigation area -->
 
-<ul class="nav-menu"> <!-- creates a list of menu links -->
+    <ul class="nav-menu"> <!-- creates a list of menu links -->
 
-<li><a href="#">Home</a></li>
+      <li><a href="#">Home</a></li>
 
-<li><a href="#">About</a></li>
+      <li><a href="#">About</a></li>
 
-<li class="dropdown"> <!-- tells CSS this item has a submenu -->
+      <li class="dropdown"> <!-- tells CSS this item has a submenu -->
 
-<a href="#">Services</a>
+        <a href="#">Services ▾</a>
 
-<ul class="dropdown-menu"> <!-- dropdown list -->
+        <ul class="dropdown-menu"> <!-- dropdown list -->
 
-<li><a href="#">Beginner Lessons</a></li>
+          <li><a href="#">Beginner Lessons</a></li>
 
-<li><a href="#">Intermediate Lessons</a></li>
+          <li><a href="#">Intermediate Lessons</a></li>
 
-<li><a href="#">Advanced Training</a></li>
+          <li><a href="#">Advanced Training</a></li>
 
-</ul>
+        </ul>
 
-</li>
+      </li>
 
-<li><a href="#">Book a Lesson</a></li>
+      <li><a href="#">Book a Lesson</a></li>
 
-<li><a href="#">Contact</a></li>
+      <li><a href="#">Contact</a></li>
 
-</ul>
+    </ul>
 
-</nav>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="avatar">🏊</div>
+    <h1>Private Swim Lessons</h1>
+    <p>Learn to swim with confidence — beginner to advanced.</p>
+    <a href="#" class="button">Book a Lesson</a>
+  </div>
 
 </body>
 </html>
